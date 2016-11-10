@@ -1,0 +1,509 @@
+11-07 11:27:09|Info|BaseCacheManager`1..ctor => LoggerExtensions.LogInfo => NLoggerAdapter.Log|Cache manager: adding cache handles...|
+11-07 11:27:09|Info|CacheReflectionHelper.CreateCacheHandles => LoggerExtensions.LogInfo => NLoggerAdapter.Log|Creating handle runtimeCache of type CacheManager.SystemRuntimeCaching.MemoryCacheHandle`1[TCacheValue].|
+11-07 11:27:09|Info|CacheReflectionHelper.CreateCacheHandles => LoggerExtensions.LogInfo => NLoggerAdapter.Log|Creating handle redisAppConfig of type CacheManager.Redis.RedisCacheHandle`1[TCacheValue].|
+11-07 11:27:09|Info|RedisConnectionManager.Connect => LoggerExtensions.LogInfo => NLoggerAdapter.Log|Trying to connect with the following configuration: '172.16.200.131:14343,allowAdmin=True,connectTimeout=12,ssl=False,abortConnect=False,connectRetry=10'|
+11-07 11:27:09|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|172.16.200.131:14343,allowAdmin=True,connectTimeout=12,password=*****,ssl=False,abortConnect=False,connectRetry=10
+|
+11-07 11:27:09|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|
+|
+11-07 11:27:09|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Connecting 172.16.200.131:14343/Interactive...
+|
+11-07 11:27:09|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|BeginConnect: 172.16.200.131:14343
+|
+11-07 11:27:09|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|1 unique nodes specified
+|
+11-07 11:27:09|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|EndConnect: 172.16.200.131:14343
+|
+11-07 11:27:09|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Connected Interactive/172.16.200.131:14343
+|
+11-07 11:27:09|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Server handshake
+|
+11-07 11:27:09|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Setting client name: FY-RD-ZHAIXD
+|
+11-07 11:27:09|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Requesting tie-break from 172.16.200.131:14343 > __Booksleeve_TieBreak...
+|
+11-07 11:27:09|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Auto-configure...
+|
+11-07 11:27:09|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Allowing endpoints 00:00:00.0120000 to respond...
+|
+11-07 11:27:09|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Awaiting task completion, IOCP: (Busy=2,Free=998,Min=4,Max=1000), WORKER: (Busy=1,Free=4094,Min=4,Max=4095)
+|
+11-07 11:27:09|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Sending critical tracer: Interactive/172.16.200.131:14343
+|
+11-07 11:27:09|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Writing to Interactive/172.16.200.131:14343: ECHO
+|
+11-07 11:27:09|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Flushing outbound buffer
+|
+11-07 11:27:09|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Starting poll
+|
+11-07 11:27:09|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Connect complete: 172.16.200.131:14343
+|
+11-07 11:27:09|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Not all tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=4093,Min=4,Max=4095)
+|
+11-07 11:27:09|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|172.16.200.131:14343 did not respond
+|
+11-07 11:27:09|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Awaiting task completion, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=4093,Min=4,Max=4095)
+|
+11-07 11:27:09|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Response from Interactive/172.16.200.131:14343 / ECHO: BulkString: 16 bytes
+|
+11-07 11:27:09|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Not all tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=4093,Min=4,Max=4095)
+|
+11-07 11:27:09|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Writing to Interactive/172.16.200.131:14343: GET __Booksleeve_TieBreak
+|
+11-07 11:27:09|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|172.16.200.131:14343 failed to nominate (WaitingForActivation)
+|
+11-07 11:27:09|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|No masters detected
+|
+11-07 11:27:09|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Writing to Interactive/172.16.200.131:14343: PING
+|
+11-07 11:27:09|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|172.16.200.131:14343: Standalone v2.4.5, master; keep-alive: 00:01:00; int: ConnectedEstablished; sub: ConnectedEstablishing; not in use: DidNotRespond
+|
+11-07 11:27:09|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|172.16.200.131:14343: int ops=11, qu=0, qs=4, qc=0, wr=0, sync=7, socks=1; sub ops=3, qu=0, qs=3, qc=0, wr=0, socks=1
+|
+11-07 11:27:09|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Circular op-count snapshot; int: 0+11=11 (1.10 ops/s; spans 10s); sub: 0+3=3 (0.30 ops/s; spans 10s)
+|
+11-07 11:27:09|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+|
+11-07 11:27:09|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|resetting failing connections to retry...
+|
+11-07 11:27:09|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|retrying; attempts left: 9...
+|
+11-07 11:27:09|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|1 unique nodes specified
+|
+11-07 11:27:09|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Requesting tie-break from 172.16.200.131:14343 > __Booksleeve_TieBreak...
+|
+11-07 11:27:09|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Allowing endpoints 00:00:00.0120000 to respond...
+|
+11-07 11:27:09|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Awaiting task completion, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=4093,Min=4,Max=4095)
+|
+11-07 11:27:09|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Writing to Interactive/172.16.200.131:14343: PING
+|
+11-07 11:27:09|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Writing to Interactive/172.16.200.131:14343: GET __Booksleeve_TieBreak
+|
+11-07 11:27:09|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Not all tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=4093,Min=4,Max=4095)
+|
+11-07 11:27:09|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|172.16.200.131:14343 did not respond
+|
+11-07 11:27:09|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Awaiting task completion, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=4093,Min=4,Max=4095)
+|
+11-07 11:27:09|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Response from Interactive/172.16.200.131:14343 / GET __Booksleeve_TieBreak: (null)
+|
+11-07 11:27:09|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Response from Interactive/172.16.200.131:14343 / PING: SimpleString: PONG
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Response from Interactive/172.16.200.131:14343 / PING: SimpleString: PONG
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Response from Interactive/172.16.200.131:14343 / GET __Booksleeve_TieBreak: (null)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=4093,Min=4,Max=4095)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|172.16.200.131:14343 had no tiebreaker set
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|No masters detected
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|172.16.200.131:14343: Standalone v2.4.5, master; keep-alive: 00:01:00; int: ConnectedEstablished; sub: ConnectedEstablishing; not in use: DidNotRespond
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|172.16.200.131:14343: int ops=13, qu=0, qs=0, qc=0, wr=0, sync=7, async=6, socks=1; sub ops=6, qu=0, qs=3, qc=0, wr=0, sync=3, socks=2
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Circular op-count snapshot; int: 0+13=13 (1.30 ops/s; spans 10s); sub: 0+6=6 (0.60 ops/s; spans 10s)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|resetting failing connections to retry...
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|retrying; attempts left: 8...
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|1 unique nodes specified
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Requesting tie-break from 172.16.200.131:14343 > __Booksleeve_TieBreak...
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Allowing endpoints 00:00:00.0120000 to respond...
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Awaiting task completion, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=4093,Min=4,Max=4095)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Writing to Interactive/172.16.200.131:14343: PING
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Writing to Interactive/172.16.200.131:14343: GET __Booksleeve_TieBreak
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Not all tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=4093,Min=4,Max=4095)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|172.16.200.131:14343 did not respond
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Awaiting task completion, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=4093,Min=4,Max=4095)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Response from Interactive/172.16.200.131:14343 / PING: SimpleString: PONG
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Response from Interactive/172.16.200.131:14343 / GET __Booksleeve_TieBreak: (null)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=4,Free=4091,Min=4,Max=4095)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|172.16.200.131:14343 had no tiebreaker set
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|No masters detected
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|172.16.200.131:14343: Standalone v2.4.5, master; keep-alive: 00:01:00; int: ConnectedEstablished; sub: ConnectedEstablishing; not in use: DidNotRespond
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|172.16.200.131:14343: int ops=15, qu=0, qs=0, qc=0, wr=0, sync=7, async=8, socks=1; sub ops=9, qu=0, qs=3, qc=0, wr=0, sync=6, socks=3
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Circular op-count snapshot; int: 0+15=15 (1.50 ops/s; spans 10s); sub: 0+9=9 (0.90 ops/s; spans 10s)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|resetting failing connections to retry...
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|retrying; attempts left: 7...
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|1 unique nodes specified
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Requesting tie-break from 172.16.200.131:14343 > __Booksleeve_TieBreak...
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Allowing endpoints 00:00:00.0120000 to respond...
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Awaiting task completion, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=4093,Min=4,Max=4095)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Writing to Interactive/172.16.200.131:14343: PING
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Writing to Interactive/172.16.200.131:14343: GET __Booksleeve_TieBreak
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Not all tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=4093,Min=4,Max=4095)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|172.16.200.131:14343 did not respond
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Awaiting task completion, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=4093,Min=4,Max=4095)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Response from Interactive/172.16.200.131:14343 / PING: SimpleString: PONG
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Response from Interactive/172.16.200.131:14343 / GET __Booksleeve_TieBreak: (null)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=4093,Min=4,Max=4095)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|172.16.200.131:14343 had no tiebreaker set
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|No masters detected
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|172.16.200.131:14343: Standalone v2.4.5, master; keep-alive: 00:01:00; int: ConnectedEstablished; sub: ConnectedEstablishing; not in use: DidNotRespond
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|172.16.200.131:14343: int ops=17, qu=0, qs=0, qc=0, wr=0, sync=7, async=10, socks=1; sub ops=12, qu=0, qs=3, qc=0, wr=0, sync=9, socks=4
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Circular op-count snapshot; int: 0+17=17 (1.70 ops/s; spans 10s); sub: 0+12=12 (1.20 ops/s; spans 10s)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|resetting failing connections to retry...
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|retrying; attempts left: 6...
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|1 unique nodes specified
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Requesting tie-break from 172.16.200.131:14343 > __Booksleeve_TieBreak...
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Allowing endpoints 00:00:00.0120000 to respond...
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Awaiting task completion, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=4093,Min=4,Max=4095)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Writing to Interactive/172.16.200.131:14343: PING
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Writing to Interactive/172.16.200.131:14343: GET __Booksleeve_TieBreak
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Not all tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=4093,Min=4,Max=4095)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|172.16.200.131:14343 did not respond
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Awaiting task completion, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=4093,Min=4,Max=4095)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Response from Interactive/172.16.200.131:14343 / PING: SimpleString: PONG
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Response from Interactive/172.16.200.131:14343 / GET __Booksleeve_TieBreak: (null)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=4093,Min=4,Max=4095)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|172.16.200.131:14343 had no tiebreaker set
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|No masters detected
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|172.16.200.131:14343: Standalone v2.4.5, master; keep-alive: 00:01:00; int: ConnectedEstablished; sub: ConnectedEstablishing; not in use: DidNotRespond
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|172.16.200.131:14343: int ops=19, qu=0, qs=0, qc=0, wr=0, sync=7, async=12, socks=1; sub ops=15, qu=0, qs=3, qc=0, wr=0, sync=12, socks=5
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Circular op-count snapshot; int: 0+19=19 (1.90 ops/s; spans 10s); sub: 0+15=15 (1.50 ops/s; spans 10s)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|resetting failing connections to retry...
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|retrying; attempts left: 5...
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|1 unique nodes specified
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Requesting tie-break from 172.16.200.131:14343 > __Booksleeve_TieBreak...
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Allowing endpoints 00:00:00.0120000 to respond...
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Awaiting task completion, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=4093,Min=4,Max=4095)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Writing to Interactive/172.16.200.131:14343: PING
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Writing to Interactive/172.16.200.131:14343: GET __Booksleeve_TieBreak
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Not all tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=4093,Min=4,Max=4095)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|172.16.200.131:14343 did not respond
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Awaiting task completion, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=4093,Min=4,Max=4095)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Response from Interactive/172.16.200.131:14343 / PING: SimpleString: PONG
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Response from Interactive/172.16.200.131:14343 / GET __Booksleeve_TieBreak: (null)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=4093,Min=4,Max=4095)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|172.16.200.131:14343 had no tiebreaker set
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|No masters detected
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|172.16.200.131:14343: Standalone v2.4.5, master; keep-alive: 00:01:00; int: ConnectedEstablished; sub: ConnectedEstablishing; not in use: DidNotRespond
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|172.16.200.131:14343: int ops=21, qu=0, qs=0, qc=0, wr=0, sync=7, async=14, socks=1; sub ops=18, qu=0, qs=3, qc=0, wr=0, sync=15, socks=6
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Circular op-count snapshot; int: 0+21=21 (2.10 ops/s; spans 10s); sub: 0+18=18 (1.80 ops/s; spans 10s)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|resetting failing connections to retry...
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|retrying; attempts left: 4...
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|1 unique nodes specified
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Writing to Interactive/172.16.200.131:14343: PING
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Requesting tie-break from 172.16.200.131:14343 > __Booksleeve_TieBreak...
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Allowing endpoints 00:00:00.0120000 to respond...
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Awaiting task completion, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=4093,Min=4,Max=4095)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Writing to Interactive/172.16.200.131:14343: GET __Booksleeve_TieBreak
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Not all tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=4093,Min=4,Max=4095)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|172.16.200.131:14343 did not respond
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Awaiting task completion, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=4093,Min=4,Max=4095)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Response from Interactive/172.16.200.131:14343 / PING: SimpleString: PONG
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Response from Interactive/172.16.200.131:14343 / GET __Booksleeve_TieBreak: (null)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=4093,Min=4,Max=4095)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|172.16.200.131:14343 had no tiebreaker set
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|No masters detected
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|172.16.200.131:14343: Standalone v2.4.5, master; keep-alive: 00:01:00; int: ConnectedEstablished; sub: ConnectedEstablishing; not in use: DidNotRespond
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|172.16.200.131:14343: int ops=23, qu=0, qs=0, qc=0, wr=0, sync=7, async=16, socks=1; sub ops=21, qu=0, qs=3, qc=0, wr=0, sync=18, socks=7
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Circular op-count snapshot; int: 0+23=23 (2.30 ops/s; spans 10s); sub: 0+21=21 (2.10 ops/s; spans 10s)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|resetting failing connections to retry...
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|retrying; attempts left: 3...
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|1 unique nodes specified
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Requesting tie-break from 172.16.200.131:14343 > __Booksleeve_TieBreak...
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Allowing endpoints 00:00:00.0120000 to respond...
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Awaiting task completion, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=4093,Min=4,Max=4095)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Writing to Interactive/172.16.200.131:14343: PING
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Writing to Interactive/172.16.200.131:14343: GET __Booksleeve_TieBreak
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Not all tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=4093,Min=4,Max=4095)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|172.16.200.131:14343 did not respond
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Awaiting task completion, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=4093,Min=4,Max=4095)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Response from Interactive/172.16.200.131:14343 / PING: SimpleString: PONG
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Response from Interactive/172.16.200.131:14343 / GET __Booksleeve_TieBreak: (null)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=4093,Min=4,Max=4095)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|172.16.200.131:14343 had no tiebreaker set
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|No masters detected
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|172.16.200.131:14343: Standalone v2.4.5, master; keep-alive: 00:01:00; int: ConnectedEstablished; sub: ConnectedEstablishing; not in use: DidNotRespond
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|172.16.200.131:14343: int ops=25, qu=0, qs=0, qc=0, wr=0, sync=7, async=18, socks=1; sub ops=24, qu=0, qs=3, qc=0, wr=0, sync=21, socks=8
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Circular op-count snapshot; int: 0+25=25 (2.50 ops/s; spans 10s); sub: 0+24=24 (2.40 ops/s; spans 10s)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|resetting failing connections to retry...
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|retrying; attempts left: 2...
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|1 unique nodes specified
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Requesting tie-break from 172.16.200.131:14343 > __Booksleeve_TieBreak...
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Allowing endpoints 00:00:00.0120000 to respond...
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Awaiting task completion, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=4093,Min=4,Max=4095)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Writing to Interactive/172.16.200.131:14343: PING
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Writing to Interactive/172.16.200.131:14343: GET __Booksleeve_TieBreak
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Not all tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=3,Free=4092,Min=4,Max=4095)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|172.16.200.131:14343 did not respond
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Awaiting task completion, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=4093,Min=4,Max=4095)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Response from Interactive/172.16.200.131:14343 / PING: SimpleString: PONG
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Response from Interactive/172.16.200.131:14343 / GET __Booksleeve_TieBreak: (null)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=3,Free=4092,Min=4,Max=4095)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|172.16.200.131:14343 had no tiebreaker set
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|No masters detected
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|172.16.200.131:14343: Standalone v2.4.5, master; keep-alive: 00:01:00; int: ConnectedEstablished; sub: ConnectedEstablishing; not in use: DidNotRespond
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|172.16.200.131:14343: int ops=27, qu=0, qs=0, qc=0, wr=0, sync=7, async=20, socks=1; sub ops=27, qu=0, qs=3, qc=0, wr=0, sync=24, socks=9
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Circular op-count snapshot; int: 0+27=27 (2.70 ops/s; spans 10s); sub: 0+27=27 (2.70 ops/s; spans 10s)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|resetting failing connections to retry...
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|retrying; attempts left: 1...
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|1 unique nodes specified
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Requesting tie-break from 172.16.200.131:14343 > __Booksleeve_TieBreak...
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Allowing endpoints 00:00:00.0120000 to respond...
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Awaiting task completion, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=4093,Min=4,Max=4095)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Writing to Interactive/172.16.200.131:14343: PING
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Writing to Interactive/172.16.200.131:14343: GET __Booksleeve_TieBreak
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Not all tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=4093,Min=4,Max=4095)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|172.16.200.131:14343 did not respond
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Awaiting task completion, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=2,Free=4093,Min=4,Max=4095)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Response from Interactive/172.16.200.131:14343 / PING: SimpleString: PONG
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Response from Interactive/172.16.200.131:14343 / GET __Booksleeve_TieBreak: (null)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|All tasks completed cleanly, IOCP: (Busy=0,Free=1000,Min=4,Max=1000), WORKER: (Busy=3,Free=4092,Min=4,Max=4095)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|172.16.200.131:14343 had no tiebreaker set
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|No masters detected
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|172.16.200.131:14343: Standalone v2.4.5, master; keep-alive: 00:01:00; int: ConnectedEstablished; sub: ConnectedEstablishing; not in use: DidNotRespond
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|172.16.200.131:14343: int ops=29, qu=0, qs=0, qc=0, wr=0, sync=7, async=22, socks=1; sub ops=30, qu=0, qs=3, qc=0, wr=0, sync=27, socks=10
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Circular op-count snapshot; int: 0+29=29 (2.90 ops/s; spans 10s); sub: 0+30=30 (3.00 ops/s; spans 10s)
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Sync timeouts: 0; fire and forget: 0; last heartbeat: -1s ago
+|
+11-07 11:27:10|Debug|LogWriter.Write => LoggerExtensions.LogDebug => NLoggerAdapter.Log|Starting heartbeat...
+|
+11-07 11:27:12|Info|RedisConnectionManager.<Connect>b__15_0 => LoggerExtensions.LogInfo => NLoggerAdapter.Log|Connection restored, type: 'Subscription', failure: 'None'|
+11-07 11:27:35|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: user:1 LoginSessions.|
+11-07 11:27:35|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: user:1 LoginSessions: item NOT found in handle runtimeCache.|
+11-07 11:30:18|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: user:1 LoginSessions.|
+11-07 11:30:18|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: user:1 LoginSessions: item NOT found in handle runtimeCache.|
+11-07 11:30:18|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: user:1 LoginSessions: item found in handle redisAppConfig.|
+11-07 11:30:18|Trace|BaseCacheManager`1.AddToHandles => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Add to handles: user:1 LoginSessions: with update mode Up.|
+11-07 11:30:18|Trace|BaseCacheManager`1.AddToHandles => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Add to handles: user:1 LoginSessions: adding to handle 0.|
+11-07 11:30:18|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: user:2 LoginSessions.|
+11-07 11:30:18|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: user:2 LoginSessions: item NOT found in handle runtimeCache.|
+11-07 11:30:18|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: user:2 LoginSessions: item found in handle redisAppConfig.|
+11-07 11:30:18|Trace|BaseCacheManager`1.AddToHandles => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Add to handles: user:2 LoginSessions: with update mode Up.|
+11-07 11:30:18|Trace|BaseCacheManager`1.AddToHandles => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Add to handles: user:2 LoginSessions: adding to handle 0.|
+11-07 11:30:18|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: sysCitys .|
+11-07 11:30:18|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: sysCitys : item NOT found in handle runtimeCache.|
+11-07 11:30:18|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: sysCitys : item found in handle redisAppConfig.|
+11-07 11:30:18|Trace|BaseCacheManager`1.AddToHandles => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Add to handles: sysCitys : with update mode Up.|
+11-07 11:30:18|Trace|BaseCacheManager`1.AddToHandles => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Add to handles: sysCitys : adding to handle 0.|
+11-07 11:30:18|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: citysInfo .|
+11-07 11:30:18|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: citysInfo : item NOT found in handle runtimeCache.|
+11-07 11:31:21|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: user:1 LoginSessions.|
+11-07 11:31:21|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: user:1 LoginSessions: item found in handle runtimeCache.|
+11-07 11:31:21|Trace|BaseCacheManager`1.AddToHandles => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Add to handles: user:1 LoginSessions: with update mode Up.|
+11-07 11:31:21|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: user:2 LoginSessions.|
+11-07 11:31:21|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: user:2 LoginSessions: item found in handle runtimeCache.|
+11-07 11:31:21|Trace|BaseCacheManager`1.AddToHandles => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Add to handles: user:2 LoginSessions: with update mode Up.|
+11-07 11:31:21|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: sysCitys .|
+11-07 11:31:21|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: sysCitys : item found in handle runtimeCache.|
+11-07 11:31:21|Trace|BaseCacheManager`1.AddToHandles => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Add to handles: sysCitys : with update mode Up.|
+11-07 11:31:21|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: citysInfo .|
+11-07 11:31:21|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: citysInfo : item NOT found in handle runtimeCache.|
+11-07 11:31:21|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: citysInfo : item found in handle redisAppConfig.|
+11-07 11:31:21|Trace|BaseCacheManager`1.AddToHandles => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Add to handles: citysInfo : with update mode Up.|
+11-07 11:31:21|Trace|BaseCacheManager`1.AddToHandles => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Add to handles: citysInfo : adding to handle 0.|
+11-07 11:31:21|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: objKeyA .|
+11-07 11:31:21|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: objKeyA : item NOT found in handle runtimeCache.|
+11-07 11:31:21|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: objKeyA : item found in handle redisAppConfig.|
+11-07 11:31:21|Trace|BaseCacheManager`1.AddToHandles => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Add to handles: objKeyA : with update mode Up.|
+11-07 11:31:21|Trace|BaseCacheManager`1.AddToHandles => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Add to handles: objKeyA : adding to handle 0.|
+11-07 11:31:21|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: objKeyB .|
+11-07 11:31:21|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: objKeyB : item NOT found in handle runtimeCache.|
+11-07 11:31:21|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: objKeyB : item found in handle redisAppConfig.|
+11-07 11:31:21|Trace|BaseCacheManager`1.AddToHandles => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Add to handles: objKeyB : with update mode Up.|
+11-07 11:31:21|Trace|BaseCacheManager`1.AddToHandles => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Add to handles: objKeyB : adding to handle 0.|
+11-07 11:31:21|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: objKeyC .|
+11-07 11:31:21|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: objKeyC : item NOT found in handle runtimeCache.|
+11-07 11:31:21|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: objKeyC : item found in handle redisAppConfig.|
+11-07 11:31:21|Trace|BaseCacheManager`1.AddToHandles => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Add to handles: objKeyC : with update mode Up.|
+11-07 11:31:21|Trace|BaseCacheManager`1.AddToHandles => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Add to handles: objKeyC : adding to handle 0.|
+11-07 11:31:21|Info|BaseCacheManager`1..ctor => LoggerExtensions.LogInfo => NLoggerAdapter.Log|Cache manager: adding cache handles...|
+11-07 11:31:21|Info|CacheReflectionHelper.CreateCacheHandles => LoggerExtensions.LogInfo => NLoggerAdapter.Log|Creating handle dicHandle of type CacheManager.Core.Internal.DictionaryCacheHandle`1[TCacheValue].|
+11-07 11:31:21|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: dicPerson .|
+11-07 11:31:21|Info|DictionaryCacheHandle`1.StartScanExpiredItems => LoggerExtensions.LogInfo => NLoggerAdapter.Log|Starting scan for expired items. Next scan in 10sec.|
+11-07 11:31:21|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: dicPerson : item NOT found in handle dicHandle.|
+11-07 11:31:30|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: user:1 LoginSessions.|
+11-07 11:31:30|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: user:1 LoginSessions: item found in handle runtimeCache.|
+11-07 11:31:30|Trace|BaseCacheManager`1.AddToHandles => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Add to handles: user:1 LoginSessions: with update mode Up.|
+11-07 11:31:30|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: user:2 LoginSessions.|
+11-07 11:31:30|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: user:2 LoginSessions: item found in handle runtimeCache.|
+11-07 11:31:30|Trace|BaseCacheManager`1.AddToHandles => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Add to handles: user:2 LoginSessions: with update mode Up.|
+11-07 11:31:30|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: sysCitys .|
+11-07 11:31:30|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: sysCitys : item found in handle runtimeCache.|
+11-07 11:31:30|Trace|BaseCacheManager`1.AddToHandles => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Add to handles: sysCitys : with update mode Up.|
+11-07 11:31:30|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: citysInfo .|
+11-07 11:31:30|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: citysInfo : item found in handle runtimeCache.|
+11-07 11:31:30|Trace|BaseCacheManager`1.AddToHandles => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Add to handles: citysInfo : with update mode Up.|
+11-07 11:31:30|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: objKeyA .|
+11-07 11:31:30|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: objKeyA : item found in handle runtimeCache.|
+11-07 11:31:30|Trace|BaseCacheManager`1.AddToHandles => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Add to handles: objKeyA : with update mode Up.|
+11-07 11:31:30|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: objKeyB .|
+11-07 11:31:30|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: objKeyB : item found in handle runtimeCache.|
+11-07 11:31:30|Trace|BaseCacheManager`1.AddToHandles => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Add to handles: objKeyB : with update mode Up.|
+11-07 11:31:30|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: objKeyC .|
+11-07 11:31:30|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: objKeyC : item found in handle runtimeCache.|
+11-07 11:31:30|Trace|BaseCacheManager`1.AddToHandles => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Add to handles: objKeyC : with update mode Up.|
+11-07 11:31:30|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: dicPerson .|
+11-07 11:31:30|Trace|BaseCacheManager`1.GetCacheItemInternal => LoggerExtensions.LogTrace => NLoggerAdapter.Log|Get: dicPerson : item NOT found in handle dicHandle.|

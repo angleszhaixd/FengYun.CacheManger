@@ -1,0 +1,9 @@
+E:\worksapace\CacheManager-0.9.1\CacheManager.Logging.NLog.WinFrom\bin\Debug\CacheManager.Logging.NLog.WinFrom.exe
+E:\SVN\FengYun.CacheManager\CacheManager.Logging.NLog.WinFrom\bin\Debug\CacheManager.Logging.NLog.WinFrom.exe.config
+E:\SVN\FengYun.CacheManager\CacheManager.Logging.NLog.WinFrom\bin\Debug\CacheManager.Logging.NLog.WinFrom.exe
+E:\SVN\FengYun.CacheManager\CacheManager.Logging.NLog.WinFrom\bin\Debug\CacheManager.Logging.NLog.WinFrom.pdb
+E:\SVN\FengYun.CacheManager\CacheManager.Logging.NLog.WinFrom\obj\Debug\CacheManager.Logging.NLog.WinFrom.Form1.resources
+E:\SVN\FengYun.CacheManager\CacheManager.Logging.NLog.WinFrom\obj\Debug\CacheManager.Logging.NLog.WinFrom.Properties.Resources.resources
+E:\SVN\FengYun.CacheManager\CacheManager.Logging.NLog.WinFrom\obj\Debug\CacheManager.Logging.NLog.WinFrom.csproj.GenerateResource.Cache
+E:\SVN\FengYun.CacheManager\CacheManager.Logging.NLog.WinFrom\obj\Debug\CacheManager.Logging.NLog.WinFrom.exe
+E:\SVN\FengYun.CacheManager\CacheManager.Logging.NLog.WinFrom\obj\Debug\CacheManager.Logging.NLog.WinFrom.pdb

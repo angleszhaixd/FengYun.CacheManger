@@ -1,0 +1,14 @@
+E:\SVN\FengYun.CacheManager\FengYun.CacheManager.Core\bin\Debug\FengYun.CacheManager.Core.dll
+E:\SVN\FengYun.CacheManager\FengYun.CacheManager.Core\bin\Debug\FengYun.CacheManager.Core.pdb
+E:\SVN\FengYun.CacheManager\FengYun.CacheManager.Core\obj\Debug\FengYun.CacheManager.Core.csprojResolveAssemblyReference.cache
+E:\SVN\FengYun.CacheManager\FengYun.CacheManager.Core\obj\Debug\FengYun.CacheManager.Core.dll
+E:\SVN\FengYun.CacheManager\FengYun.CacheManager.Core\obj\Debug\FengYun.CacheManager.Core.pdb
+E:\SVN\FengYun.CacheManager\FengYun.CacheManager.Core\bin\Debug\NLog.config
+E:\SVN\FengYun.CacheManager\FengYun.CacheManager.Core\bin\Debug\CacheManager.Core.dll
+E:\SVN\FengYun.CacheManager\FengYun.CacheManager.Core\bin\Debug\CacheManager.NLog.Extensions.Logging.dll
+E:\SVN\FengYun.CacheManager\FengYun.CacheManager.Core\bin\Debug\CacheManager.Serialization.Json.dll
+E:\SVN\FengYun.CacheManager\FengYun.CacheManager.Core\bin\Debug\CacheManager.SystemRuntimeCaching.dll
+E:\SVN\FengYun.CacheManager\FengYun.CacheManager.Core\bin\Debug\NLog.dll
+E:\SVN\FengYun.CacheManager\FengYun.CacheManager.Core\bin\Debug\CacheManager.NLog.Extensions.Logging.pdb
+E:\SVN\FengYun.CacheManager\FengYun.CacheManager.Core\bin\Debug\NLog.xml
+E:\SVN\FengYun.CacheManager\FengYun.CacheManager.Core\bin\Debug\CacheManager.Serialization.ProtoBuf.dll
