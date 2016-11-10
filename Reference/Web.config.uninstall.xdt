@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!--Nuget安装FengYun.CacheManger.Core 自动配置文件项 zxd-->
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+  <configSections>
+    <section name="cacheManager" type="CacheManager.Core.Configuration.CacheManagerSection, CacheManager.Core" xdt:Transform="Remove" xdt:Locator="Match(name)"/>
+    <section name="cacheManager.Redis" type="CacheManager.Redis.RedisConfigurationSection, CacheManager.StackExchange.Redis" xdt:Transform="Remove" xdt:Locator="Match(name)"/>
+  </configSections>
+  <appSettings>
+    <add key="CacheManagerConfigName" value="multiCacheName2" xdt:Transform="Remove" xdt:Locator="Match(key)"/>
+  </appSettings>
+  <connectionStrings>
+    <add name="redisFromConnectionStrings" connectionString="127.0.0.1:6379,allowAdmin=True,connectTimeout=11,ssl=False,abortConnect=False,connectRetry=10" xdt:Transform="Insert" xdt:Transform="Remove" xdt:Locator="Match(name)"/>
+  </connectionStrings>
+
+  <cacheManager xdt:Transform="Remove" xmlns="http://tempuri.org/CacheManagerCfg.xsd">
+    <managers>
+      <cache name="multiCache" updateMode="Up" enableStatistics="false" enablePerformanceCounters="false" serializerType="CacheManager.Serialization.Json.JsonCacheSerializer, CacheManager.Serialization.Json" backplaneName="redisAppConfig" backplaneType="CacheManager.Redis.RedisCacheBackplane, CacheManager.StackExchange.Redis">
+        <handle name="runtimeCache" ref="systemRuntimeHandle" expirationMode="Sliding" timeout="2m" />
+        <handle name="redisAppConfig" ref="redisHandle" isBackplaneSource="true" expirationMode="Absolute" timeout="48h" />
+      </cache>
+      <cache name="systemRuntimeCache" updateMode="None">
+        <handle name="systemRuntimeHandle" ref="systemRuntimeHandle" expirationMode="Sliding" timeout="1h" />
+      </cache>
+      <cache name="redisCache" updateMode="None" serializerType="CacheManager.Serialization.Json.JsonCacheSerializer, CacheManager.Serialization.Json">
+        <handle name="redisHandle" ref="redisHandle" expirationMode="None" />
+      </cache>
+      <cache name="dictionaryCache" updateMode="None">
+        <handle name="dicHandle" ref="dicHandle" expirationMode="None" />
+      </cache>
+    </managers>
+    <cacheHandles>
+      <handleDef id="systemRuntimeHandle" type="CacheManager.SystemRuntimeCaching.MemoryCacheHandle`1, CacheManager.SystemRuntimeCaching" defaultExpirationMode="Sliding" defaultTimeout="60s" />
+      <handleDef id="redisHandle" type="CacheManager.Redis.RedisCacheHandle`1, CacheManager.StackExchange.Redis" defaultExpirationMode="Absolute" defaultTimeout="48h" />
+      <handleDef id="dicHandle" type="CacheManager.Core.Internal.DictionaryCacheHandle`1, CacheManager.Core" defaultExpirationMode="Sliding" defaultTimeout="2h" />
+    </cacheHandles>
+  </cacheManager>
+  <cacheManager.Redis xdt:Transform="Remove">
+    <connections>
+      <connection id="redisAppConfig" allowAdmin="true" database="2" password="" ssl="false" sslHost="" connectionTimeout="12">
+        <endpoints>
+          <endpoint host="172.16.200.131" port="14343" />
+        </endpoints>
+      </connection>
+    </connections>
+  </cacheManager.Redis>
+</configuration>
