@@ -39,7 +39,7 @@
     <connections>
       <connection id="redisAppConfig" allowAdmin="true" database="2" password="" ssl="false" sslHost="" connectionTimeout="12">
         <endpoints>
-          <endpoint host="172.16.200.131" port="14343" />
+          <endpoint host="127.0.0.1" port="6379" />
         </endpoints>
       </connection>
     </connections>
