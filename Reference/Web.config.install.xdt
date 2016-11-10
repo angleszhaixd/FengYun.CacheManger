@@ -2,15 +2,15 @@
 
 <!--Nuget安装FengYun.CacheManger.Core 自动配置文件项 zxd-->
 <configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
-  <configSections>
-    <section name="cacheManager" type="CacheManager.Core.Configuration.CacheManagerSection, CacheManager.Core" xdt:Transform="Insert"/>
-    <section name="cacheManager.Redis" type="CacheManager.Redis.RedisConfigurationSection, CacheManager.StackExchange.Redis" xdt:Transform="Insert"/>
+  <configSections xdt:Transform="Insert">
+    <section name="cacheManager" type="CacheManager.Core.Configuration.CacheManagerSection, CacheManager.Core"/>
+    <section name="cacheManager.Redis" type="CacheManager.Redis.RedisConfigurationSection, CacheManager.StackExchange.Redis"/>
   </configSections>
-  <appSettings>
-    <add key="CacheManagerConfigName" value="multiCacheName2" xdt:Transform="Insert"/>
+  <appSettings xdt:Transform="Insert">
+    <add key="CacheManagerConfigName" value="multiCacheName2" />
   </appSettings>
-  <connectionStrings>
-    <add name="redisFromConnectionStrings" connectionString="127.0.0.1:6379,allowAdmin=True,connectTimeout=11,ssl=False,abortConnect=False,connectRetry=10" xdt:Transform="Insert"/>
+  <connectionStrings xdt:Transform="Insert">
+    <add name="redisFromConnectionStrings" connectionString="127.0.0.1:6379,allowAdmin=True,connectTimeout=11,ssl=False,abortConnect=False,connectRetry=10"/>
   </connectionStrings>
 
   <cacheManager xdt:Transform="Insert" xmlns="http://tempuri.org/CacheManagerCfg.xsd">

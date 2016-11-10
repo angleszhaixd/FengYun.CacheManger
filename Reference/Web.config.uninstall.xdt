@@ -10,7 +10,7 @@
     <add key="CacheManagerConfigName" value="multiCacheName2" xdt:Transform="Remove" xdt:Locator="Match(key)"/>
   </appSettings>
   <connectionStrings>
-    <add name="redisFromConnectionStrings" connectionString="127.0.0.1:6379,allowAdmin=True,connectTimeout=11,ssl=False,abortConnect=False,connectRetry=10" xdt:Transform="Insert" xdt:Transform="Remove" xdt:Locator="Match(name)"/>
+    <add name="redisFromConnectionStrings" connectionString="127.0.0.1:6379,allowAdmin=True,connectTimeout=11,ssl=False,abortConnect=False,connectRetry=10" xdt:Transform="Remove" xdt:Locator="Match(name)"/>
   </connectionStrings>
 
   <cacheManager xdt:Transform="Remove" xmlns="http://tempuri.org/CacheManagerCfg.xsd">
