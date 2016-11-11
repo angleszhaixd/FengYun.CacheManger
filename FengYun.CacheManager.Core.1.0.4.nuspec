@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>FengYun.CacheManager.Core</id>
+        <version>1.0.4</version>
+        <title>FengYun.CacheManager.Core</title>
+        <authors>zhaixd</authors>
+        <owners>zhaixd</owners>
+        <licenseUrl>https://github.com/angleszhaixd/FengYun.CacheManger/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/angleszhaixd/FengYun.CacheManger</projectUrl>
+        <iconUrl>https://github.com/angleszhaixd/FengYun.CacheManger/blob/master/sispark.ico</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>江苏风云科技缓存管理</description>
+        <language>zh-CN</language>
+        <tags>caching,cache,cachemanager</tags>
+        <dependencies>
+            <group targetFramework=".NETFramework4.0">
+                <dependency id="Newtonsoft.Json" version="6.0.8" />
+                <dependency id="StackExchange.Redis" version="1.1.608" />
+                <dependency id="NLog" version="4.3.10" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="content\CacheManager_Demo_Page\Index.aspx" target="content\CacheManager_Demo_Page\Index.aspx" />
+        <file src="content\CacheManager_Demo_Page\Index.aspx.cs" target="content\CacheManager_Demo_Page\Index.aspx.cs" />
+        <file src="content\CacheManager_Demo_Page\Index.aspx.designer.cs" target="content\CacheManager_Demo_Page\Index.aspx.designer.cs" />
+        <file src="content\NLog.config" target="content\NLog.config" />
+        <file src="content\NLog.xsd" target="content\NLog.xsd" />
+        <file src="Reference\Web.config.install.xdt" target="content\Web.config.install.xdt" />
+        <file src="Reference\Web.config.uninstall.xdt" target="content\Web.config.uninstall.xdt" />
+        <file src="lib\net40\CacheManager.Core.dll" target="lib\net40\CacheManager.Core.dll" />
+        <file src="lib\net40\CacheManager.NLog.Extensions.Logging.dll" target="lib\net40\CacheManager.NLog.Extensions.Logging.dll" />
+        <file src="lib\net40\CacheManager.Serialization.Json.dll" target="lib\net40\CacheManager.Serialization.Json.dll" />
+        <file src="lib\net40\CacheManager.Serialization.ProtoBuf.dll" target="lib\net40\CacheManager.Serialization.ProtoBuf.dll" />
+        <file src="lib\net40\CacheManager.StackExchange.Redis.dll" target="lib\net40\CacheManager.StackExchange.Redis.dll" />
+        <file src="lib\net40\CacheManager.SystemRuntimeCaching.dll" target="lib\net40\CacheManager.SystemRuntimeCaching.dll" />
+        <file src="lib\FengYun.CacheManager.Core.dll" target="lib\FengYun.CacheManager.Core.dll" />
+        <file src="README.md" target="README.md" />
+    </files>
+</package>
